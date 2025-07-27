@@ -14,7 +14,6 @@ Bu proje, iki farklı tarihli uydu görüntüsü arasındaki farkları tespit et
 - Streamlit (Kullanıcı arayüzü)
 - Docker (Container altyapısı)
 - Skimage (Histogram eşleme için)
-- NumPy, cv2
 
 🔍 Özellikler:
 --------------
