@@ -20,7 +20,7 @@ if st.button("Tespit Et") and pre_image and post_image:
         "post": post_image
     }
 
-    response = requests.post("http://api:8000/detect", files=files)
+    response = requests.post("http://localhost:8000/detect", files=files)
 
     if response.status_code == 200:
         result = response.json()

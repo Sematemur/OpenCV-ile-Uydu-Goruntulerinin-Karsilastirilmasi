@@ -1,20 +1,16 @@
 version: '3.8'
 
 services:
-  api:
+  app:
     build:
-      context: ./api
-    container_name: fastapi_app
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    restart: always
-
-  streamlit:
-    build:
-      context: ./arayuz
-    container_name: streamlit_app
-    ports:
       - "8501:8501"
-    depends_on:
-      - api
-    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
