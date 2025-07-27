@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./api
+    container_name: fastapi_app
+    ports:
+      - "8000:8000"
+    restart: always
+
+  streamlit:
+    build:
+      context: ./arayuz
+    container_name: streamlit_app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    restart: always
