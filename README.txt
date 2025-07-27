@@ -44,3 +44,6 @@ Geliştirici: Sema Temur
 E-posta: sema_temur_@hotmail.com
 Teknik dökümantasyon Dokumantasyon.pdf adlı dosyadır.
 
+Arayüz :
+![Arayüz ](arayuz.png)
+
