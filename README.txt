@@ -43,5 +43,5 @@ Bu proje, iki farklı tarihli uydu görüntüsü arasındaki farkları tespit et
 ------------
 Geliştirici: Sema Temur  
 E-posta: sema_temur_@hotmail.com
-Teknik dökümantasyon Proje.pdf adlı dosyadır.
+Teknik dökümantasyon Dokumantasyon.pdf adlı dosyadır.
 
